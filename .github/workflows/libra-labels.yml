@@ -1,0 +1,28 @@
+name: libra-labels
+on:
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+    steps:
+      - run: gh label create 'status:backlog' --force --color ededed
+      - run: gh label create 'status:todo' --force --color ededed
+      - run: gh label create 'status:discovery' --force --color ededed
+      - run: gh label create 'status:spec_review' --force --color ededed
+      - run: gh label create 'status:execution' --force --color ededed
+      - run: gh label create 'status:validation' --force --color ededed
+      - run: gh label create 'status:human_review' --force --color ededed
+      - run: gh label create 'status:rework' --force --color ededed
+      - run: gh label create 'status:merge_queued' --force --color ededed
+      - run: gh label create 'status:merging' --force --color ededed
+      - run: gh label create 'status:blocked' --force --color ededed
+      - run: gh label create 'status:done' --force --color ededed
+      - run: gh label create 'status:canceled' --force --color ededed
+      - run: gh label create 'status:failed' --force --color ededed
+      - run: gh label create 'libra:triage' --force --color ededed
