@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "contract_digest": "sha256:309fc8b212a0a05fca37391c957186d247cb446bde9872c9d13a5551f522e665",
+  "steps": [
+    {
+      "id": "implement",
+      "title": "Guard the count",
+      "role": "execution",
+      "repository_ids": [
+        "01a0eacb-1691-7dd5-a0b7-1db19183e542"
+      ],
+      "acceptance_ids": [
+        "AC-001",
+        "AC-002"
+      ],
+      "input_refs": [
+        "contract:spec",
+        "evidence:findings"
+      ],
+      "output_schema": "execution_result.v1",
+      "bounds": {
+        "max_turns": 10,
+        "max_seconds": 1800,
+        "max_cost_micro_usd": 1000000
+      }
+    }
+  ],
+  "merge_order": [
+    "01a0eacb-1691-7dd5-a0b7-1db19183e542"
+  ],
+  "repository_dependencies": []
+}
