@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "card_id": "01a0ed1b-82d8-7101-bcf2-13e1b84dc766",
+  "alternatives": [
+    {
+      "id": "A1",
+      "summary": "Guard the input and count."
+    },
+    {
+      "id": "A2",
+      "summary": "A default parameter.",
+      "rejected_because": "It hides the null case."
+    }
+  ],
+  "chosen": {
+    "alternative_id": "A1",
+    "design": "Guard the input, then count.",
+    "reasons": [
+      "The failure case stays visible."
+    ]
+  }
+}
