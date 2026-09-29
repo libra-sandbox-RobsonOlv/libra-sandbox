@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "bundle_id": "01a0eccb-a3d3-7793-b014-7cc8c42e9596",
-  "card_id": "01a0ecca-4e4f-793a-a4f7-1726f93da375",
+  "bundle_id": "01a0ed00-d465-7f88-9fa0-0cf3466ce7a7",
+  "card_id": "01a0ecff-aa7f-7e5f-ba0c-45cfd8e04af6",
   "cycle": 1,
   "contract": {
     "repository_id": "01a0eaca-f1a6-7e75-ac5b-bb0a2680a060",
-    "path": "specs/cards/01a0ecca-4e4f-793a-a4f7-1726f93da375/SPEC.md",
+    "path": "specs/cards/01a0ecff-aa7f-7e5f-ba0c-45cfd8e04af6/SPEC.md",
     "revision": 1,
-    "contract_digest": "sha256:5cb672f20829a69070e7daf452316bd8c87f8a77559c26b3b827c6660347c2a6",
-    "commit": "ab60ec0b2c48454b4cb1ef412f4af26a4f164560"
+    "contract_digest": "sha256:f8f03a9fc7cb4ddcf6409897e2af558b05ca58a745d7eb43f2aa9589f0ea4cc2",
+    "commit": "15e2c443c0e3504efd95aa062820d071b7b38ed0"
   },
   "repositories": [
     {
       "repository_id": "01a0eaca-f1a6-7e75-ac5b-bb0a2680a060",
-      "branch": "libra/01a0ecca-4e4f-793a-a4f7-1726f93da375/c1",
-      "base_commit": "82a654feb34fee74591cb658678cfb7cc15df091",
+      "branch": "libra/01a0ecff-aa7f-7e5f-ba0c-45cfd8e04af6/c1",
+      "base_commit": "1384d346874fdaf97d0b21fb53b5e776330b5e32",
       "head_commit": null
     }
   ]
