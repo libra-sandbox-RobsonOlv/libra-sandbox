@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "card_id": "01a0eb1a-bc85-762b-9cf9-ff8886eb6d49",
+  "revision": 1,
+  "files": [
+    {
+      "path": "SPEC.md",
+      "sha256": "0d84a597c72e4ab12241d0d681c260ede2651b3abac131c07eb39f6d1c708f31"
+    },
+    {
+      "path": "decision.json",
+      "sha256": "6901513d5a8aa02b50e96c32404353c3df4959b76457bed6f2e3331a6f9d2394"
+    },
+    {
+      "path": "findings.json",
+      "sha256": "2a8aa2dda6510a50fa2724580db980b82935567aadbbe45c75af4bda8d1c107b"
+    },
+    {
+      "path": "plan.json",
+      "sha256": "1d639aea5354feb4bd619cc9988d80832767d248be3cdc44ab86732705cd43b5"
+    }
+  ],
+  "artifacts": [
+    {
+      "type": "findings",
+      "artifact_id": "01a0eb3f-5677-7743-b568-f96fedeb8fce",
+      "sha256": "2a8aa2dda6510a50fa2724580db980b82935567aadbbe45c75af4bda8d1c107b"
+    },
+    {
+      "type": "decision",
+      "artifact_id": "01a0eb3f-fab6-7aed-8a85-96b325d03895",
+      "sha256": "6901513d5a8aa02b50e96c32404353c3df4959b76457bed6f2e3331a6f9d2394"
+    }
+  ]
+}
