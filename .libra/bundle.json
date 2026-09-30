@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "bundle_id": "01a0f2a4-89db-797f-9361-5de3c90f986e",
+  "card_id": "01a0f29b-f7c2-7a67-922a-bd2b275ccee2",
+  "cycle": 1,
+  "contract": {
+    "repository_id": "01a0f269-9dd8-7aa5-ad00-2237c230ecf7",
+    "path": "specs/cards/01a0f29b-f7c2-7a67-922a-bd2b275ccee2/SPEC.md",
+    "revision": 1,
+    "contract_digest": "sha256:e2d6378028f9593360a4d622664ffd22c24f8ce16ff575f90563881b6af5af37",
+    "commit": "c4a6e9acfe70c441692f163faa42e0c18d90d24d"
+  },
+  "repositories": [
+    {
+      "repository_id": "01a0f269-9dd8-7aa5-ad00-2237c230ecf7",
+      "branch": "libra/01a0f29b-f7c2-7a67-922a-bd2b275ccee2/c1",
+      "base_commit": "5a10436e354bba2b5dbbbd9086fb785b13b75709",
+      "head_commit": null
+    }
+  ]
+}
